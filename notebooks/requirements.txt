@@ -4,4 +4,4 @@ scikit-learn
 joblib
 streamlit
 matplotlib
-seaborn
+seabor
