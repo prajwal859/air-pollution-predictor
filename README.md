@@ -38,3 +38,43 @@ The model was trained on the [Beijing PM2.5 Data Set](https://archive.ics.uci.ed
    ```bash
    git clone https://github.com/prajwal859/air-pollution-predictor.git
    cd air-pollution-predictor
+
+2. **Create and activate a virtual environment**
+  ```bash
+  python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. **Install dependencies**
+  ```bash
+  pip install -r requirements.txt
+
+4. **Run the Streamlit app**
+  ```bash
+  streamlit run app/app.py
+
+## Model Performance
+| Model              | MAE   | RMSE  | R²   |
+|--------------------|-------|-------|------|
+| Linear Regression  | 12.73 | 22.88 | 0.94 |
+| Random Forest      | 13.31 | 24.17 | 0.94 |
+| XGBoost            | 12.92 | 25.05 | 0.93 |
+
+## 📝 How to Use
+
+1. Adjust the input sliders and number inputs for weather conditions.
+2. Select wind direction.
+3. Click **Predict PM2.5**.
+4. The predicted value and air quality category will appear.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the (https://github.com/prajwal859/air-pollution-predictor/issues).
+
+## 📄 License
+
+This project is MIT licensed.
+
+## 🙏 Acknowledgements
+
+- UCI Machine Learning Repository for the dataset
+- Streamlit for the amazing framework
