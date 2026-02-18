@@ -22,7 +22,6 @@ data/raw/
 # But if you have a small sample, you might keep it; we'll exclude data/ for now.
 
 # Model outputs
-models/
 outputs/
 
 # IDE
